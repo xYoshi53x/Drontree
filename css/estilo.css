@@ -1,0 +1,24 @@
+body{
+    background-color: darkcyan;
+}
+
+.uno{
+width: 30%;
+}
+.dos{
+width: 30%  
+}
+.Principal{
+background: red;  
+text-align: right;
+padding: 30px;
+}
+.Segunda{
+background: blue;
+text-align: center; 
+padding: 30px;   
+}
+li{
+display: inline;
+padding: 10px;    
+}
