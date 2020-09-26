@@ -1,0 +1,140 @@
+body{
+    background-color: darkcyan;
+}
+
+.uno{
+width: 30%;
+padding: 20px;
+}
+.dos{
+width: 30%  
+}
+.Principal{
+background-color: blue;
+text-align: center;
+padding: 30px;
+}
+.Tendencias{
+    background-image: url("../img/Fondo.jpg") ;
+    height: 1200px;
+      background-size: 100%;
+     text-align: center;
+      padding-top: 30px;
+
+
+    color:black;
+    
+  
+text-align: center; 
+
+padding: 30px;   
+}
+li{
+display: inline;
+padding: 10px;    
+}
+nav{
+    text-align: right;
+}
+
+.IA-img{
+    background-image: url("../img/Fondo2.jpg") ;
+    height: 1000px;
+      background-size: 100%;
+       
+}
+
+.IA h3{
+    color: black;
+    text-align: center;
+}
+.IA h2{
+  color: white;
+  text-align: center;
+}
+
+.video{
+    background-color: black;
+   text-align: center;
+   padding: 10px;
+}
+.menu{
+  display: flex;
+  justify-content: space-between;
+  background-color: gray;
+  align-items: center;
+}
+.logo{
+  width: 100px;
+}
+.menu ol li{
+  display: inline;
+  padding: 10px;
+}
+.menu ol li a{
+  color: orange;
+  text-decoration: none;
+}
+.planeta{
+  background-image: url(../img/fondoEspacio.png);
+  background-size: cover;
+  font-family: 'Lemonada', cursive;
+  color: blanchedalmond;
+  padding: 100px;
+}
+h1 strong{
+  color: #99cc00;
+}
+.planeta-button{
+  width: 250px;
+  height: 40px;
+  background-color: rgba(20, 137, 167, 0.945);
+  border-radius: 24px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+/*
+.padre{
+  background: white;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  height: 500px;
+  align-items: center;
+
+}
+.hijo{
+  background: orange;
+  color: white;
+  width: 200px;
+  height: 200px;
+  border: 2px solid yellowgreen;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+*/
+.aplicar{
+  height: 500px;
+  background: white;
+  display: flex;
+}
+.aplicar-detalles{
+  width: 50%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 20px;
+}
+.aplicar-detalles img{
+  height: 90%;
+}
+   
+  
