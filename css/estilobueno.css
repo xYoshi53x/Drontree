@@ -1,5 +1,9 @@
+*{
+  margin:0px;
+}
 body{
     background-color: darkcyan;
+    margin:0px;
 }
 
 .uno{
@@ -10,12 +14,11 @@ padding: 20px;
 width: 30%  
 }
 .Principal{
-background-color: blue;
 text-align: center;
 padding: 30px;
 }
 .Tendencias{
-    background-image: url("../img/Fondo.jpg") ;
+    background-image: url("../img/") ;
     height: 1200px;
       background-size: 100%;
      text-align: center;
@@ -76,7 +79,7 @@ nav{
   text-decoration: none;
 }
 .planeta{
-  background-image: url(../img/fondoEspacio.png);
+  background-image: url(../img/bosque.png);
   background-size: cover;
   font-family: 'Lemonada', cursive;
   color: blanchedalmond;
@@ -133,8 +136,48 @@ h1 strong{
   align-items: center;
   padding-left: 20px;
 }
+h2{
+  font-size: 43px;
+}
+p{
+  font-size: 33px;
+}
 .aplicar-detalles img{
   height: 90%;
 }
-   
-  
+.row1-contacto{
+   height: 15px;
+ 
+   padding: 20px;
+}   
+.row2-contacto{
+    height: 17px;
+    padding: 20px;
+ } 
+ .row3-contacto{
+    height: 50px;
+    padding: 20PX;
+ } 
+ .container1{
+     display: flex;
+    justify-content: space-between;
+ }
+.col3-container2{
+ 
+} 
+.Texto{
+  color: white;
+  background-color: black;
+
+}
+.Texto p{
+  padding: 20px;
+}
+footer h2{
+  font-size: 20px;
+}
+.R2, .R3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
